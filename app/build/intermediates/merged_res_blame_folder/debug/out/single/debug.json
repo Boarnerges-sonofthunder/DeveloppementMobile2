@@ -20,6 +20,14 @@
         "source": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\build\\intermediates\\merged_res\\debug\\layout_form_alert.xml.flat",
+        "source": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\src\\main\\res\\layout\\form_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\build\\intermediates\\merged_res\\debug\\layout_contenu_list.xml.flat",
+        "source": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\src\\main\\res\\layout\\contenu_list.xml"
+    },
+    {
         "merged": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\BMilc\\Desktop\\Teccart\\Session4\\DevMob2\\CertificatifDevmob2\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
