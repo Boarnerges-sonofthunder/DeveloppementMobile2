@@ -2,7 +2,11 @@ package com.example.stationnement
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.ListView
+import android.widget.TextView
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity() {
@@ -10,17 +14,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val listview = findViewById<ListView>(R.id.lstStationnement)
-        val arraylist = ArrayList<String>(10)
-        arraylist.add("1")
-        arraylist.add("2")
-        arraylist.add("3")
-        arraylist.add("4")
-        arraylist.add("5")
+        var listview = findViewById<ListView>(R.id.lstStationnement)
+        val arraylist = mutableListOf<Statio>()
 
-        for (elem in arraylist)
-        {
+        arraylist.add(Statio("disponible"))
+        arraylist.add(Statio("disponible"))
+        arraylist.add(Statio("disponible"))
+        arraylist.add(Statio("disponible"))
+        arraylist.add(Statio("disponible"))
+
+        listview.setOnItemClickListener{ parent:AdapterView<*>, view: View, position:Int, id:Long ->
             
         }
+
+
     }
 }
